@@ -1,0 +1,135 @@
+body {
+  display: block;
+  margin: 0 auto;
+}
+.weather {
+  color: white;
+  max-width: 500px;
+  max-height: 640px;
+  background-color: rgb(62, 62, 118);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 5px auto;
+}
+header {
+  text-align: center;
+}
+.topic {
+  font-size: 3rem;
+  color: rgb(20, 3, 3);
+  box-shadow: 5px 5px 5px 5px rgba(2, 2, 2, 0.2);
+  border-radius: 5px;
+}
+.main1 {
+  display: flex;
+  justify-content: space-between;
+}
+.type {
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 4px;
+  border-style: none;
+  margin: 4px;
+  background-color: rgb(177, 177, 243);
+  color: #000;
+}
+.submit {
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 4px;
+  border: none;
+  background-color: rgb(69, 69, 243);
+  color: #fff;
+}
+.h1 {
+  margin-bottom: 0;
+  color: white;
+  border-radius: 4px;
+}
+.hex {
+  color: red;
+  width: 1px;
+  height: 1px;
+}
+.country {
+  color: rgb(239, 61, 61);
+  font-size: 15px;
+  margin-left: 25px;
+  margin-top: 0;
+  padding-top: 0;
+}
+.time-sec,
+.date-sec {
+  color: white;
+}
+.current-sec {
+  text-align: center;
+  margin: 0;
+  padding: 30px;
+}
+.day-sec {
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 30px;
+}
+.descrip {
+  color: rgb(162, 230, 230);
+  font-size: 20px;
+}
+.temp {
+  background-color: rgb(20, 5, 116);
+  display: flex;
+  justify-content: center;
+  border-style: none;
+  border-radius: 10000%;
+  box-shadow: 10px 10px 25px 35px rgba(2, 2, 2, 0.2);
+}
+.icon {
+  width: 70px;
+  height: 70px;
+}
+.temperature {
+  font-size: 70px;
+  margin: 0;
+  padding: 0;
+}
+.degrees {
+  font-size: 20px;
+  font-weight: 50;
+  margin-left: 0;
+  padding: 0;
+}
+.humi,
+.wini {
+  color: crimson;
+}
+.forcast {
+  background-color: rgb(162, 230, 230);
+  color: black;
+  text-align: center;
+  margin-top: 20px;
+  padding: 5px 20px 3px 20px;
+  display: flex;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px rgba(2, 2, 2, 0.2);
+}
+.for-main {
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0px 1px 0px 1px rgba(5, 5, 5, 0.3);
+}
+.for-icon {
+  width: 65px;
+  height: 65px;
+  display: block;
+  margin: 0 auto;
+}
+.mini {
+  opacity: 0.5;
+}
+.max {
+  margin-right: 10px;
+}
+footer {
+  text-align: center;
+}

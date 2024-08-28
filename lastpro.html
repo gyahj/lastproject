@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lastpro-weather</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="lastpro.css" />
+  </head>
+  <body>
+    <div class="weather">
+      <header>
+        <h1 class="topic">MiLiLiWi WEATHER</h1>
+        <form class="form" id="form">
+          <input
+            type="search"
+            class="type"
+            id="type"
+            placeholder="Enter your CITY"
+            autocomplete="none"
+            autofocus
+            required
+          />
+          <input type="submit" class="submit" id="submit" value="search" />
+        </form>
+      </header>
+      <main>
+        <div class="main1" id="main1">
+          <div class="city-sec" id="city-sec">
+            <div class="city" id="city">
+              <h1 class="h1" id="h1"></h1>
+            </div>
+            <div><span class="country" id="country">Germany</span></div>
+          </div>
+          <div class="time" id="time">
+            <div class="time-sec" id="time-sec"></div>
+            <div class="date-sec" id="date-sec"></div>
+          </div>
+        </div>
+        <div class="current-sec" id="current-sec">
+          <div class="day-sec" id="day-sec"></div>
+          <div class="para" id="para">
+            <p>
+              <strong class="descrip" id="descrip"></strong><br />
+              Humidity: <span class="humi" id="humi"> </span> <br />
+              Wind: <span class="wini" id="wini"> </span>
+            </p>
+          </div>
+          <div class="temp" id="temp">
+            <div id="icon"></div>
+            <div class="temperature" id="temperature"></div>
+            <div class="degrees">°C</div>
+          </div>
+          <div class="forcast" id="forcast"></div>
+        </div>
+      </main>
+      <footer>..coded by JerrySON</footer>
+      <script src="lastpro.js"></script>
+    </div>
+  </body>
+</html>
